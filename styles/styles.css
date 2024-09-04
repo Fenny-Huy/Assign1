@@ -1,0 +1,472 @@
+/* 
+CSS style for job description*/
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+body {
+    margin: 0;
+}
+
+/*header*/
+.index-header {
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-image: linear-gradient(rgba(3, 10, 36, 0.521), rgba(3, 10, 36, 0.521)), url(images/background.jpg);
+    width: 100%;
+    
+    
+}
+
+.header {
+    background-position: center;
+    background-size: cover;
+    height: 35vh;
+    background-image: linear-gradient(rgba(3, 10, 36, 0.521), rgba(3, 10, 36, 0.521)), url(images/background.jpg);
+    width: 100%;
+
+    
+}
+
+nav {
+    padding: 2.2% 5.8%;
+    display: flex;
+}
+
+nav img {
+    width: 7vw;
+}
+
+.header-nav {
+    flex: 1;
+    text-align: right;
+}
+
+.header-nav ul li {
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.header-nav ul li a {
+    font-size: 30px;
+    color: rgba(241, 239, 239, 0.973);
+    text-decoration: none;
+}
+
+.header-nav ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgba(241, 239, 239, 0.973);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+.header-nav ul li:hover::after {
+    width: 100%;
+}
+
+
+
+
+/*header end*/
+
+/*home start*/
+
+
+
+
+.welcome {
+    top: 60%;
+    left: 50%;
+    width: 100%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -70%);
+
+}
+
+.welcome h1 {
+    font-size: 5em;
+    margin-bottom: 0.6em;
+}
+
+.welcome p {
+    font-size: 2em;
+}
+
+
+
+
+
+
+
+/*info*/
+
+
+
+
+
+
+
+
+
+
+
+.info {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.info h1 {
+    font-size: 5em;
+    font-weight: 300;
+    
+
+}
+
+
+.specificinfos {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+div.specificinfo {
+    flex-basis: 31.5%;
+    background: #d2dcc7;
+    border-radius: 10px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    word-break: break-word;
+    font-size: 1.3em;
+
+}
+
+div.specificinfo:hover {
+    box-shadow: 0 0 20px 0 rgba(5, 5, 5, 0.2);
+}
+
+.why1 {
+    font-size: 2em;
+    color: #0540d9;
+    font-family: sans-serif;
+
+}
+
+
+
+/*functionalities*/
+
+
+
+
+
+.functionalities .divide {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em;
+
+}
+
+
+
+.functionalities h1 {
+    text-align: center;
+    margin: 0.7em;
+    font-size: 3em;
+    font-family: sans-serif;
+}
+
+
+.functionalities .functionality-line {
+    flex-basis: 30%;
+    background: #e2f2db;
+    border-radius: 10px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    margin: 1em;
+    text-align: center;
+    
+
+}
+
+
+
+
+.functionality {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/*hom end*/
+
+/*jobs start*/
+
+.job {
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+}
+
+#jobheading {
+    text-align: center;
+    margin: 7vh;
+    font-size: 3em;
+}
+
+
+
+
+
+.jobsection {
+    border: 2px inset blue;
+    border-radius: 14px;
+    margin: 1em;
+    margin-left: 3em;
+    padding: 1em;
+    width: 60%;
+}
+
+
+
+.h2heading {
+    font-size: 2em;
+    color: rgb(39 39 223);
+}
+
+
+/*jobs end*/
+
+/*about us start*/
+
+.aboutme {
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* about us ends*/
+
+/*application start*/
+
+
+
+input {
+    width: 100%;
+    padding: 8px 10px;
+}
+
+
+
+#oneform {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10em;
+
+}
+
+
+
+.thewholeform label {
+    width: 25vw;
+}
+
+.onefield {
+    margin-bottom: 1.5vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.thewholeform fieldset {
+    width: 100%;
+}
+
+
+.thewholeform .applicationform .onefield .selection {
+    width: 28%;
+    display: inline-block;
+}
+
+.thewholeform .applicationform .onefield fieldset label {
+    width: 60%;
+    float: right;
+    
+
+}
+
+
+.thewholeform .applicationform .onefield fieldset input {
+    width: 20%;
+    float: right;
+}
+
+
+
+
+.applicator1 {
+    margin-bottom: 1.5vh;
+    display: flex;
+    align-items: center;
+}
+
+.applicator1 input{
+    width: 10%;
+}
+
+.Iagree input{
+    width: 3%;
+}
+
+.optionlist {
+    width: 100%;
+    padding: 8px 10px;
+}
+
+
+
+#finalapply {
+    
+    
+    font-size: 15px;
+    font-weight: bold;
+    border: 0;
+    background: #2bc7ea;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#finalapply:hover {
+    background: #096fb8;
+}
+
+
+
+
+
+/*application end*/
+
+
+
+
+
+/*footer*/
+
+footer {
+    box-sizing: border-box;
+}
+
+
+.foot-container {
+    max-width: 80%;
+    margin: auto;
+
+
+}
+
+
+
+
+.footer-class {
+    background-color: #262728;
+    padding: 70px;
+}
+
+ul {
+    list-style: none;
+
+}
+
+
+
+
+
+
+.footer-vertical {
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+}
+
+.footer-vertical h4 {
+    font-size: 2em;
+    color: white;
+
+
+}
+
+footer img {
+    height: 25vh;
+    width: auto;
+}
+
+
+
+.footer-vertical ul li a {
+    color: #928b8b;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1em;
+    transition: all 0.3s ease;
+
+}
+
+.footer-vertical ul li a:hover {
+    padding-left: 10px;
+
+}
+
+
+.footer-horizontal p {
+    color: #928b8b;
+    margin-top: 3em;
+}
+
+
+
+
+
+
+
+footer ul {
+    padding-inline-start: 0;
+}
+
+
+
+/*footer end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
